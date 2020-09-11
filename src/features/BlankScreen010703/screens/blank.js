@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = { Input_5: "", Input_6: "" }
+  state = { Input_5: "hgfhgfhgf", Input_6: "" }
 
   render = () => (
     <View
@@ -103,11 +103,12 @@ export class _Blank extends React.Component {
         textStyle={{
           fontSize: 12,
           color: "#000000",
-          textAlign: "center",
+          textAlign: "left",
           fontFamily: "Roboto-Regular"
         }}
         style={{
-          width: "100%",
+          width: 100,
+          height: 50,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 5,
@@ -130,8 +131,8 @@ export class _Blank extends React.Component {
           borderTopWidth: 0,
           borderBottomWidth: 0,
           borderRadius: 0,
-          textAlign: "center",
-          textAlignVertical: "center",
+          textAlign: "left",
+          textAlignVertical: "bottom",
           textDecorationLine: "none",
           textTransform: "none",
           lineHeight: 12,
@@ -186,7 +187,7 @@ export class _Blank extends React.Component {
           fontFamily: "Roboto-Regular"
         }}
         style={{
-          width: "100%",
+          width: 100,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 5,
@@ -196,6 +197,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
+          alignSelf: "center",
           fontSize: 12,
           color: "#000000",
           backgroundColor: "#ffffff",
